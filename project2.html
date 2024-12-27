@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+    
+    <div class="wrp">
+        <div class="subwrp">
+            <div class="sep">
+                <div class="passin">
+                    <input readonly placeholder="PASSWORD" id="pass">
+                   <div class="msg">
+                    <p message></p>
+                   <button class="fbtn"> <span><i class="fa-duotone fa-solid fa-check-double"></i></span>
+                  </button>
+                  
+                </div> 
+                  </div>
+            </div>
+    
+      <div class="allfuctions">
+        <h3>password Length</h3>
+        <p class="len">0</p>
+      </div>
+      <div class="slide">
+        <input type="range" min="1" max="200" class="slider" slides>
+      </div>
+      <div class="checks ">
+        <input type="checkbox" id="l1">
+        <label for="l1">Include UpperCase Letters</label>
+        
+        <br>
+        <input type="checkbox" id="l2">
+        <label for="l2">Include LowerCase Letters</label>
+        
+        <br>
+        <input type="checkbox" id="l3">
+        <label for="l3">Include Numbers</label>
+        
+        <br>
+        <input type="checkbox" id="l4">
+        <label for="l4">Include symbols</label>
+       
+        <div class="stren">
+            <h2>strength</h2>
+            <div class="color"></div>
+        </div>
+       
+       <div class="but">
+        <button id="btn">GENERATE PASSORD</button>
+       </div>
+       
+      </div>
+    </div>
+    </div>
+    <script src="project2.js"></script>
+</body>
+</html>

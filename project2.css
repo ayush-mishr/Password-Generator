@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.wrp{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(45deg,purple,rgb(9, 0, 139));
+    padding: 20px;
+    
+    color: aliceblue;
+    
+    
+}
+.subwrp{
+    background-color:rgb(2, 66, 92);
+    height: 70%;
+     padding: 40px; 
+    justify-content:space-evenly;
+   border:10px solid aqua;
+   gap:50px;
+   border-radius: 20px;
+   box-shadow: 0 0 40px;
+}
+.but{
+    /* padding: auto; */
+    /* color:chocolate; */
+    /* background-color: chocolate; */
+    transform: translateY(70px);
+}
+.stren{
+    transform: translateY(20px);
+    display: flex;
+    color: orangered;
+    justify-content: space-between;
+
+}
+.color{
+    height: 20px;
+    width: 20px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    border-radius: 50%;
+}
+#btn{
+    background-color: blue;
+    color:wheat;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.allfuctions{
+    transform: translateY(20px);
+    display: flex;
+    justify-content: space-between;
+}
+.checks{
+    transform: translateY(50px);
+}
+.slide{
+    transform: translateY(30px);
+}
+#pass{
+    margin: 6px;
+    border-radius: 10px;
+    padding:3px;
+}
+/* .sep{
+    display: flex;
+    flex-direction: column;
+    height:100px;
+    width: 200px;
+} */
+ .passin{
+    border: none;
+    display: flex;
+ }
+ .msg{
+    display: flex;
+    flex-direction: column;
+ }
+ .fbtn{
+    transform: translate(2px,2px);
+    margin: 3px;
+ }
+ .active{
+    background-color: blueviolet;
+    padding:1px;
+    scale:1;
+ }
+ #pass{
+    color:darkblue;
+    border: none;
+    font-size: 1.5rem;
+ }
+ #pass::placeholder{
+    color:red;
+    text-shadow: 5px,5px,black;
+    font-style: italic;
+ }
